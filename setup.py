@@ -112,7 +112,7 @@ tf_req = [r for r in reqs_from_file if r.startswith('tensorflow')]
 requirements = {'install_requires': reqs_without_tf, 'pip_install': tf_req}
 
 setup(
-    name='TTS_english',
+    name='TTSenglish',
     version=version,
     url='https://github.com/mozilla/TTS',
     author='Eren Gölge',
